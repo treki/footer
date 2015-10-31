@@ -1,0 +1,132 @@
+
+ol, ul {
+  list-style: none;
+}
+
+body {
+  color: black;
+  font: 100%/1.3 "Graphik Web", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: none;
+  min-width: 320px;
+  width: 100%;
+}
+
+html.noscroll {
+  height: 100%;
+}
+html.noscroll body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+}
+
+body.dark {
+  background: #000;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 340px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer {
+ height: 340px;  /* Set the fixed height of the footer here */
+  margin-top: 40px;
+  background: #000;
+  border-top: 1px solid #363636;
+  margin-top: 30px;
+}
+
+footer h4 {
+  letter-spacing: 2.5px;
+  padding: 40px 0 25px;
+  font-weight: 200;
+  text-align: center;
+  text-transform: uppercase;
+  color: gray;
+}
+footer .social-icons {
+  text-align: center;
+  margin-bottom: 22px;
+  padding-top: 40px;
+}
+footer .social-icons li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin: 0 4px;
+}
+footer .social-icons li a {
+  display: block;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  border-top-left-radius: 55px;
+  border-top-right-radius: 55px;
+  border-bottom-left-radius: 55px;
+  border-bottom-right-radius: 55px;
+  border-radius: 55px;
+  border: 2px solid #303030;
+  color: #808080;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background 0.3s, color 0.3s;
+  -moz-transition: background 0.3s, color 0.3s;
+  -o-transition: background 0.3s, color 0.3s;
+  transition: background 0.3s, color 0.3s;
+}
+footer .social-icons li a:hover {
+  background: #444444;
+  color: #fff;
+}
+
+footer .footer-links {
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin: 0 auto;
+  width: 320px;
+}
+footer .footer-links li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  line-height: 39px;
+  margin: 0 8px;
+}
+footer .footer-links li a{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 11px;
+  color: white;
+  text-decoration: none;
+}
+footer .copyright{
+  letter-spacing: 1px;
+  padding: 10px 0 0px;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: gray;
+}
+
+
